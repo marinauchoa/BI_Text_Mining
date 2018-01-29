@@ -5,7 +5,7 @@
 
 # You will need httr package to scrape using yt_scraper class.
 # To change the video to get comments from, change the videoId in initialize().
-# The key value is my personal google developer key, please use with caution.
+# The key value is your personal google developer key.
 # To set your own Google developer key and manage API allowances:
 # console.developers.google.com
 
