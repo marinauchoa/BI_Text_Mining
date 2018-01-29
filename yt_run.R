@@ -1,6 +1,7 @@
 # Author: Marina Ferreira Uchoa - h16mferr@du.se
 
 ### Packages ###
+# Install needed packages
 # install.packages("httr")
 # install.packages("xlsx")
 # install.packages("ggplot2")
@@ -11,12 +12,12 @@
 # install.packages('Rcpp')
 # install.packages('here')
 # install.packages('wordcloud')
-
-### Packages for textual analysis ###
+## Packages for textual analysis ##
 require(devtools)
 install_url("http://www.omegahat.net/Rstem/Rstem_0.4-1.tar.gz")
 install_url("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.1.tar.gz")
 install_url("http://cran.r-project.org/src/contrib/Archive/sentiment/sentiment_0.2.tar.gz")
+# Load packages
 p_list<-c("httr","xlsx","ggplot2", "wordcloud","RColorBrewer","tm","sentiment","here","wordcloud")
 lapply(p_list,require, character.only=T)
 
