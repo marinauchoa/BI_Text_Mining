@@ -11,7 +11,6 @@
 # install.packages("devtools")
 # install.packages('Rcpp')
 # install.packages('here')
-# install.packages('wordcloud')
 ## Packages for textual analysis ##
 require(devtools)
 install_url("http://www.omegahat.net/Rstem/Rstem_0.4-1.tar.gz")
